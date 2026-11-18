@@ -1,0 +1,33 @@
+[tools]
+mdbook = "latest"
+
+[env]
+BOOK_DIR = "book"
+OUTPUT_DIR = "book"
+
+[tasks."book:init"]
+dir = "{{ config_root }}"
+usage = '''arg "<title>" help="Title of your new book"'''
+run = [
+    "mdbook init --ignore none {{ env.BOOK_DIR }}",
+    "echo \"\n[build]\nbuild-dir = \\\"{{ env.OUTPUT_DIR }}\\\"\n\" >> {{ env.BOOK_DIR }}/book.toml",
+]
+
+[tasks."book:lint"]
+tools.markdownlint-cli2 = "latest"
+dir = "{{ env.BOOK_DIR }}"
+run = "markdownlint-cli2 \"src/**/*.md\""
+
+[tasks."book:build"]
+dir = "{{ env.BOOK_DIR }}"
+run = "mdbook build"
+
+[tasks."book:test"]
+depends = ["book:build"]
+dir = "{{ env.BOOK_DIR }}"
+run = "mdbook test"
+
+[tasks."book:serve"]
+depends = ["book:build"]
+dir = "{{ env.BOOK_DIR }}"
+run = "mdbook serve"

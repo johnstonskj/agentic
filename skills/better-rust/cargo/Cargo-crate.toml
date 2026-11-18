@@ -1,0 +1,63 @@
+[package]
+name = "my_crate"
+version = "0.1.0"
+description = "My crate description"
+repository = "https://github.com/username/my_crate"
+homepage = "https://username.github.io/my_crate"
+documentation = "https://docs.rs/my_crate"
+license = "MIT OR Apache-2.0"
+keywords = ["rust", "crate"]
+categories = ["development-tools"]
+edition = "2024"
+publish = true
+
+[package.metadata.docs.rs]
+# This allows only the default target ("x86_64-unknown-linux-gnu") to run.
+targets = []
+# Generally you want to document all.
+all-features = true
+# Uncomment the following to add custom stylesheets/scripts to the generated HTML files.
+# rustdoc-args = [ "--html-in-header", "doc-src/header.html" ]
+
+[features]
+# If needed
+
+[dependencies]
+# Add your dependencies here
+
+[workspace.lints.rust]
+absolute_paths_not_starting_with_crate = "warn"
+anonymous_parameters = "deny"
+bare_trait_objects = "deny"
+deref_nullptr = "deny"
+drop_bounds = "deny"
+dyn_drop = "deny"
+elided_lifetimes_in_paths = "warn"
+ellipsis_inclusive_range_patterns = "deny"
+explicit_outlives_requirements = "warn"
+exported_private_dependencies = "deny"
+future_incompatible = { level = "warn", priority = -1 }
+macro_use_extern_crate = "warn"
+missing_debug_implementations = "warn"
+nonstandard_style = { level = "warn", priority = -1 }
+noop_method_call = "warn"
+rust_2018_idioms = { level = "warn", priority = -1 }
+rust_2021_compatibility = { level = "warn", priority = -1 }
+rust_2021_prelude_collisions = "warn"
+semicolon_in_expressions_from_macros = "warn"
+single_use_lifetimes = "warn"
+trivial_casts = "warn"
+trivial_numeric_casts = "warn"
+unexpected_cfgs = "warn"
+unreachable_pub = "warn"
+unsafe_code = "forbid"
+unsafe_op_in_unsafe_fn = "forbid"
+unused = { level = "warn", priority = -1 }
+
+[workspace.lints.rustdoc]
+all = "warn"
+missing_crate_level_docs = "warn"
+broken_intra_doc_links = "warn"
+
+[workspace.lints.clippy]
+all = "warn"

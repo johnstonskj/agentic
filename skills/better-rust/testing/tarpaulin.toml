@@ -1,0 +1,18 @@
+# Default features, in release mode
+[default_release]
+release = true
+
+# All features, in debug mode
+[all_features]
+release = true
+all-features = true
+
+# No std, in debug mode
+[no_std]
+release = false
+no-default-features = true
+features = "alloc"
+
+# Common flag settings.
+[report]
+out = ["Html", "Xml"]
