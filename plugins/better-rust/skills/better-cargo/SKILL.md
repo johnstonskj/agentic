@@ -1,6 +1,6 @@
 ---
 description: Cargo configuration.
-name: better-
+name: better-cargo
 cargo
 context:
   applyTo: '**/Cargo.toml'
