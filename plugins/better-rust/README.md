@@ -1,14 +1,12 @@
-# Plugin: better-rust
+# Plugin: better-rust (0.1.0)
 
-<!-- markdownlint-disable MD036 -->
-**Table: Plugin Configuration**
-<!-- markdownlint-enable MD036 -->
+## Install
 
-| Field         | Value                                             |
-|---------------|---------------------------------------------------|
-| Name          | `better-rust`                                     |
-| Description   | Tools and guidance for Better Rust development    |
-| Version       | `0.1.0`                                           |
+Install from within Claude, or other plugin-aware agent:
+
+```text
+/plugin install better-rust --marketplace johnstonskj/agentic
+```
 
 ## Skills
 
