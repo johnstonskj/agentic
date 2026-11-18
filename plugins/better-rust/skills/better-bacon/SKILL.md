@@ -1,6 +1,6 @@
 ---
 description: Using the bacon watch-mode tool in Rust projects.
-name: use-bacon
+name: better-bacon
 context:
   applyTo: '**/bacon.toml'
 ---

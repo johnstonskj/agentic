@@ -1,6 +1,7 @@
 ---
 description: Guidelines for implementing builder patterns.
-name: builders
+name: better-builders-rs
+
 context:
   applyTo: '**/*.rs'
 ---

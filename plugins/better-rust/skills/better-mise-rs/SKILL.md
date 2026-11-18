@@ -1,6 +1,6 @@
 ---
 description: Using mise for Rust environment and tool management.
-name: use-mise
+name: better-mise-rs
 context:
   applyTo: '**/mise.toml'
 ---

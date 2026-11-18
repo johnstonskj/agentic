@@ -1,6 +1,6 @@
 ---
 description: Style and linting guidelines for Rust development.
-name: style
+name: better-style-rs
 context:
   applyTo: '**/*.rs'
 ---

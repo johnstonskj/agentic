@@ -1,6 +1,7 @@
 ---
 description: Guidelines for implementing `no_std` in crates.
-name: no-std
+name: better-
+no-std
 context:
   applyTo: '**/*.rs'
 ---

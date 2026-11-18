@@ -1,6 +1,6 @@
 ---
 description: Rustdoc guidelines for API documentation.
-name: rustdoc
+name: better-rustdoc
 context:
   applyTo: '**/*.rs'
 ---

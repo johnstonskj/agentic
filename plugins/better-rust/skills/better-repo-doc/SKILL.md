@@ -1,6 +1,6 @@
 ---
 description: Guidelines for Repository (non-rustdoc) documentation.
-name: repo-doc
+name: better-repo-doc
 context:
   applyTo: '**/*.md'
 ---
