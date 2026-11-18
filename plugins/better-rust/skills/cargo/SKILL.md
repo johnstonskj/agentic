@@ -1,7 +1,6 @@
 ---
 description: Cargo configuration.
-name: better-cargo
-cargo
+name: cargo
 context:
   applyTo: '**/Cargo.toml'
 ---
@@ -42,7 +41,7 @@ Ensure the following in the *workspace* `Cargo.toml`:
    across member crates. These are under the key `workspace.dependencies`.
 4. Define all linting configurations at the workspace level to ensure consistent
    code quality standards across all member crates. See section 
-   [#lint-configuration].
+   [#Lint Configuration].
    1. Core Rust lints are defined under `workspace.lints.rust`.
    2. Rustdoc lints are defined under `workspace.lints.rustdoc`.
    3. Clippy lints are defined under `workspace.lints.clippy`.
@@ -60,7 +59,7 @@ Ensure the following in each *member crate* `Cargo.toml`:
 2. Common crate metadata defined at the workspace level should be included
    using the form `{name}.workspace = true`.
 3. Include rustdoc configuration under the key `package.metadata.docs.rs`;
-   see section [#rustdoc-configuration].
+   see section [#Rustdoc Configuration].
 4. Include crate features in the usual manner.
 5. Include any crate-specific dependencies in the usual manner.
 6. Include linting configuration using the key `lints` and the key/value
@@ -81,11 +80,11 @@ Ensure the following in the `Cargo.toml`:
    2. The key `readme` is unecessary if it can be inferred automatically from
       the project structure.
 2. Include rustdoc configuration under the key `package.metadata.docs.rs`;
-   see section [#rustdoc-configuration].
+   see section [#Rustdoc Configuration].
 3. Include crate features in the usual manner.
 4. Include any crate-specific dependencies in the usual manner.
 5. Include linting configuration using the key `lints`. See section 
-   [#lint-configuration].
+   [#Lint Configuration].
 
 See template file: [Cargo-crate.toml](./Cargo-crate.toml)
 

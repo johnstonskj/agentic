@@ -1,8 +1,9 @@
 {
     "name": "simons-agentic-things",
-    "description": "Plugins for my own use",
+    "description": "A collection of agent plugins for my own productivity",
     "owner": {
-        "name": "Simon"
+        "name": "Simon Johnston",
+        "email": "johnstonskj@gmail.com"
     },
     "plugins": [
         {

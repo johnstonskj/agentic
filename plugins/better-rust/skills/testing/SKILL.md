@@ -1,6 +1,6 @@
 ---
-description: Testing guidelines for Rust development.
-name: better-testing-rs
+description: Testing guidelines and best-practices.
+name: testing
 context:
   applyTo: '**/*.rs'
 ---

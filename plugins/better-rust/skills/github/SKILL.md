@@ -1,6 +1,6 @@
 ---
 description: GitHub configuration for Rust projects.
-name: better-github-rs
+name: github
 ---
 # GitHub Configuration for Rust Projects
 

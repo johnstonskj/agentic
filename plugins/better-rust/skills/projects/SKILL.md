@@ -1,6 +1,6 @@
 ---
 description: Guidelines for Rust project structure.
-name: better-projects-rs
+name: projects
 
 ---
 # Rust Project Structure

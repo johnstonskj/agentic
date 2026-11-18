@@ -1,6 +1,6 @@
 ---
 description: Guidelines for module layout and organization.
-name: better-mods-rs
+name: mods
 context:
   applyTo: '**/*.rs'
 ---

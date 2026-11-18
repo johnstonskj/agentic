@@ -1,6 +1,6 @@
 ---
-description: Style and linting guidelines for Rust development.
-name: better-style-rs
+description: Style and linting guidelines.
+name: style
 context:
   applyTo: '**/*.rs'
 ---
@@ -26,7 +26,8 @@ context:
 ## Configuration
 
 All check/clippy rules are defined in the project's root `Cargo.toml`, as defined in
-the `[workspace.metadata]` section (see [cargo files](cargo.md)).
+the `[workspace.metadata]` section (see the 
+[Cargo configuration skill](../cargo/SKILL.md)).
 
 Do not override the rules for `rustfmt`, in order to ensure this include a file
 named `rustfmt.toml` at the root of the project with the following content

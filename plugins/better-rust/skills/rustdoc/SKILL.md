@@ -1,10 +1,10 @@
 ---
-description: Rustdoc guidelines for API documentation.
-name: better-rustdoc
+description: Rustdoc guidelines for public documentation.
+name: rustdoc
 context:
   applyTo: '**/*.rs'
 ---
-# API Documentation
+# Public Documentation
 
 *Principles*
 

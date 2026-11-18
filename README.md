@@ -1,14 +1,25 @@
 # Agentic: My own plugin marketplace
 
-Agent plugins for my own use.
+A collection of agent plugins for my own productivity.
 
 [![Apache-2.0 License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![MIT License](https://img.shields.io/badge/license-mit-118811.svg)](https://opensource.org/license/mit)
 [![GitHub stars](https://img.shields.io/github/stars/johnstonskj/agentic.svg)](<https://github.com/johnstonskj/agentic/stargazers>)
 
+<!-- markdownlint-disable MD036 -->
+**Table: Marketplace Configuration**
+<!-- markdownlint-enable MD036 -->
+
+| Field         | Value                                                 |
+|---------------|-------------------------------------------------------|
+| Name          | `simons-agentic-things`                               |
+| Description   | A collection of agent plugins for my own productivity |
+| Owner Name    | Simon Johnston                                        |
+| Owner Email   | <johnstonskj@gmail.com>                               |
+
 ## Plugins
 
-* [Better Rust](./plugins/better-rust/SKILL.md); a collection of all sorts of
+* [Better Rust](./plugins/better-rust/README.md); a collection of all sorts of
   notes, guidelines and scripts from many projects.
 
 ## License(s)

@@ -1,6 +1,6 @@
 ---
 description: Guidelines for implementing logging and tracing.
-name: better-logging-rs
+name: logging
 context:
   applyTo: '**/*.rs'
 ---
