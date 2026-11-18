@@ -1,0 +1,14 @@
+{
+    "name": "Simon's agentic things",
+    "description": "Plugins for my own use",
+    "owner": {
+        "name": "Simon"
+    },
+    "plugins": [
+        {
+            "name": "better-rust",
+            "source": "./plugins/better-rust",
+            "description": "Tools and guidance for Better Rust development"
+        }
+    ]
+}
